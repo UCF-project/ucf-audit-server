@@ -1,0 +1,20 @@
+{
+  "name": "ucf-audit-server",
+  "version": "0.1.0",
+  "description": "UCF Project node.js server to wrap tanaguru and asqatasun CLI tool.",
+  "main": "server.js",
+  "author": "UCF Project <ucf-project@alterway.fr>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UCF-project/ucf-audit-server.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0"
+  }
+}
